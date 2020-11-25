@@ -1,6 +1,7 @@
 import React from 'react';
+import { hot } from 'react-hot-loader/root';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App(): JSX.Element {
     return (
@@ -18,4 +19,4 @@ function App(): JSX.Element {
     );
 }
 
-export default App;
+export default hot(App);
