@@ -37,5 +37,6 @@ jobs:
           CI: false # CRA treats warnings as errors in CI - re-enable if needed
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+          SURGE_DOMAIN: ${{ secrets.SURGE_DOMAIN }}
         run: export
           yarn run deploy
