@@ -12,6 +12,20 @@ const fakeDate: IArticleItem[] = [
         description:
             'Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enum, pulvinar lobortis nibh lacinia at. Vestibulum nec ert ut mi so',
         url: 'https://google.com.au'
+    },
+    {
+        date: '28 Sep, 2018',
+        title: 'Curious mind leads the way for career Jill',
+        description:
+            'Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enum, pulvinar lobortis nibh lacinia at. Vestibulum nec ert ut mi so . Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enum, pulvinar lobortis nibh lacinia at. Vestibulum nec ert ut mi so. Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enum, pulvinar lobortis nibh lacinia at. Vestibulum nec ert ut mi so',
+        url: 'https://google.com.au'
+    },
+    {
+        date: '10 Oct, 2018',
+        title: 'Celebrating our volunteers',
+        description:
+            'Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enum, pulvinar lobortis nibh lacinia at. Vestibulum nec ert ut mi so. Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.',
+        url: 'https://google.com.au'
     }
 ];
 
@@ -25,17 +39,17 @@ const RelatedArticles: FC = (): ReactElement => {
     };
 
     return (
-        <div className={styles.container}>
-            <h2>Related Articles</h2>
+        <>
+            <h2 className="text-primary">Related Articles</h2>
             <p>
                 Lorem ipsum dolor sit amet, quo dolore constituam ea. Sed et fieent consulatu rationibus, aliquid sensibus ea sed.
                 Et alterum dolorem eos, id usu audire accusamus uliamcorper.
             </p>
             <ArticleList items={relatedArticles} />
-            <button type="button" className="btn btn-outline-primary" onClick={showMoreArticles}>
+            <button type="button" className={`btn btn-outline-info ${styles.btn_readmore}`} onClick={showMoreArticles}>
                 view more
             </button>
-        </div>
+        </>
     );
 };
 

@@ -1,3 +1,41 @@
+@import '../../styles/variables';
+
 .container {
     position: relative;
+    margin-bottom: $grid-gutter-width / 2;
+    color: $white;
+
+    &:nth-child(3n + 1) .wrapper {
+        background-color: #f0861f;
+    }
+
+    &:nth-child(3n + 2) .wrapper {
+        background-color: #3d9dd6;
+    }
+
+    &:nth-child(3n + 3) .wrapper {
+        background-color: #995e9d;
+    }
+
+    .btn_readmore {
+        position: relative;
+        font-family: $font-family-base;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+
+    .top {
+        flex-grow: 2;
+        padding: $grid-gutter-width / 2;
+    }
+
+    .bottom {
+        padding: $grid-gutter-width / 2;
+    }
 }

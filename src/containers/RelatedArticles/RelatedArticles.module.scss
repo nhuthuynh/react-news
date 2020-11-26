@@ -1,1 +1,7 @@
-.container {}
+@import '../../styles/variables';
+
+.btn_readmore {
+    display: block;
+    margin: $grid-gutter-width/2 auto;
+    text-transform: capitalize;
+}
