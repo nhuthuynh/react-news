@@ -31,7 +31,8 @@
     "lint:ts": "tsc --noEmit && yarn lint:eslint",
     "lint:eslint": "eslint 'src/**/*.ts{,x}'",
     "lint:scss": "stylelint --syntax scss \"src/**/*.scss\"",
-    "lint": "yarn run lint:ts && yarn run lint:scss"
+    "lint": "yarn run lint:ts && yarn run lint:scss",
+    "deploy": "sh deploy.sh"
   },
   "eslintConfig": {
     "extends": [
