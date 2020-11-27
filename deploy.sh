@@ -1,10 +1,10 @@
 echo 'Building application...'
-yarn build
+yarn run build
 
 echo 'Copying index.html as 404.html'
-cp build/index.html build/404.html
+cp public/index.html public/404.html
 
 echo 'Deploying...'
-node_modules/.bin/surge --project ./build --domain cra-starter.surge.sh
+node_modules/.bin/surge --project ./public --domain SURGE_DOMAIN --token SURGE_TOKEN
 
 echo 'Deployed 🚀'
