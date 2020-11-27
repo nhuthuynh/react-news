@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Public url
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Open [http://nhuthuynh.test-react-news.surge.sh](http://nhuthuynh.test-react-news.surge.sh) to view it in the browser
 
 ## Available Scripts
 
