@@ -1,7 +1,4 @@
 @import './variables.scss';
 @import '~bootstrap/scss/grid';
 @import '~bootstrap/scss/buttons';
-
-* {
-    font-size: $font-family-base;
-}
+@import '~bootstrap/scss/reboot';
