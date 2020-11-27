@@ -40,7 +40,7 @@ const RelatedArticles: FC = (): ReactElement => {
 
     return (
         <>
-            <h2 className="text-primary">Related Articles</h2>
+            <h3 className={`${styles.heading}`}>Related Articles</h3>
             <p>
                 Lorem ipsum dolor sit amet, quo dolore constituam ea. Sed et fieent consulatu rationibus, aliquid sensibus ea sed.
                 Et alterum dolorem eos, id usu audire accusamus uliamcorper.
