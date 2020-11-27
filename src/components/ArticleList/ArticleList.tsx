@@ -12,7 +12,7 @@ const ArticleList: FC<Props> = ({ items }: Props): ReactElement => {
     const newsList = items.map(
         (item: IArticleItem, index: number): ReactElement => <ArticleItem item={item} key={`item-${index}`} />
     );
-    return <div className="row justify-content-between ">{newsList}</div>;
+    return <div className="row no-gutters">{newsList}</div>;
 };
 
 export default ArticleList;

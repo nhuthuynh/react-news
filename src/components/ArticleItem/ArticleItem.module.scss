@@ -29,6 +29,7 @@
     display: flex;
     height: 100%;
     flex-direction: column;
+    margin: $grid-gutter-width / 2;
 
     .top {
         flex-grow: 2;
