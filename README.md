@@ -1,6 +1,6 @@
 # Public url
 
-Open [http://test.react-news.surge.sh](react-news.surge.sh) to view it in the browser
+Open [http://nhuthuynh.test-react-news.surge.sh](http://nhuthuynh.test-react-news.surge.sh) to view it in the browser
 
 ## Available Scripts
 

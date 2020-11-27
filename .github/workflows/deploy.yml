@@ -39,4 +39,4 @@ jobs:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
           SURGE_DOMAIN: ${{ secrets.SURGE_DOMAIN }}
         run: export
-          yarn run deploy
+          yarn deploy
